@@ -12,6 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(195,34,182);
+    background: linear-gradient(0deg, rgba(195,34,182,1) 0%, rgba(191,79,221,1) 21%, rgba(154,129,222,1) 65%, rgba(90,99,232,1) 100%); 
 }
 
 main {
@@ -19,8 +21,6 @@ main {
     max-width: 40em;
     height: 80vh;
     max-height: 70em;
-    background: rgb(195,34,182);
-    background: linear-gradient(0deg, rgba(195,34,182,1) 0%, rgba(191,79,221,1) 21%, rgba(154,129,222,1) 65%, rgba(90,99,232,1) 100%); 
     border-radius: 1em;
 }
 
@@ -72,13 +72,14 @@ label {
     font-size: 1rem;
 }
 .submit-btn {
-    color: #fff;
-    background: rgb(230,105,160);
-    background: radial-gradient(circle, rgba(230,105,160,1) 0%, rgba(215,144,233,1) 100%); 
+    color: #000;
+    background: #fff;
+    border: 1px solid transparent;
 }
 .submit-btn:hover {
-    background: rgb(195,34,182);
-background: linear-gradient(0deg, rgba(195,34,182,1) 0%, rgba(191,79,221,1) 21%, rgba(154,129,222,1) 65%, rgba(90,99,232,1) 100%);
+    background: radial-gradient(circle, rgba(230,105,160,1) 0%, rgba(215,144,233,1) 100%); 
+    border: 1px solid rgba(215,144,233,1);
+    color: #fff;
 }
 
 .forgot-pw_link {
