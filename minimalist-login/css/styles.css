@@ -45,7 +45,7 @@ main {
     font-size: 1.2em;
    vertical-align: sub;
 }
-.icon-text {
+.legend {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,12 +77,12 @@ label {
     border: 1px solid transparent;
 }
 .submit-btn:hover {
-    background: radial-gradient(circle, rgba(230,105,160,1) 0%, rgba(215,144,233,1) 100%); 
+    background: radial-gradient(circle, rgb(232, 195, 211) 0%, rgb(242, 190, 255) 100%); 
     border: 1px solid rgba(215,144,233,1);
     color: #fff;
 }
 
-.forgot-pw_link {
+.forgot-pw_link, .login_link {
     margin-top: -4em;
 }
 
