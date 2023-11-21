@@ -24,14 +24,16 @@ main {
 
 .container {
     width: max(30vw, 30em);
+    min-width: 300px;
     height: min(70vh,70em);
-    background-color: rgba(219, 216, 227,0.8);
+    background-color: #fcfcfccc;
     border-radius: 2em;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0 0 35px #cecdcdcc;
 }
 
 .link-container {
@@ -79,12 +81,14 @@ label {
 }
 .submit-btn {
     color: #fff;
-    background: rgb(195,34,182);
-    background: linear-gradient(0deg, rgb(221, 100, 211) 0%, rgb(221, 124, 248) 21%, rgba(154,129,222,1) 65%, rgb(101, 110, 240) 100%); 
+    background: #c322b6;
+    background: linear-gradient(0deg, #dd64d3 0%, #dd7cf8 21%, #9a81de 65%, #656ef0 100%); 
     border: none;
+    transition: 0.5s;
 }
 .submit-btn:hover {
-    color: #fff;
+    letter-spacing: 0.13em;
+    box-shadow: 0 0 30px #656ef0 ;
 }
 
 .forgot-pw_link, .login_link, .sign-up_link {
@@ -99,4 +103,17 @@ label {
 
 .link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .container {
+        background: none;
+        color: #fff;
+        box-shadow: none;
+    }
+
+    .submit-btn {
+        background: #fff;
+        color: #000100;
+    }
 }
