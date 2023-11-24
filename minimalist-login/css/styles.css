@@ -13,7 +13,7 @@ body {
     background: linear-gradient(0deg, rgba(195,34,182,1) 0%, rgba(191,79,221,1) 21%, rgba(154,129,222,1) 65%, rgba(90,99,232,1) 100%); 
 }
 
-main {
+.main-content {
     width: 100%;
     height: 100%;
     border-radius: 1em;
@@ -60,13 +60,13 @@ main {
     gap: 8px;
 }
 
-form {
+.form-content {
     width: 100%;
     padding: 2.5em 2.5em 0 2.5em;
     margin: 0 auto;
 }
 
-label {
+.label {
     background: gray;
 }
 
